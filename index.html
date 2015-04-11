@@ -14,17 +14,17 @@
     <div class="col-md-2">
       <ul class="nav nav-pills nav-stacked">
        <li class="subject">Subjects</li>
-       <li>Education<li>
+       <li><span class="btn btn-primary ed">Education</span><li>
        <li>Programming<li>
        <li>Work<li>
        <li>Home<li>
-       <li><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></li>
+       <li><button class="glyphicon glyphicon-plus" aria-hidden="true"></button></li>
      </ul>
     </div>
     <!-- List group -->
     <div class="col-md-10">
       <h1>Todo.txt</h1>
-     <ul class="list-group">
+     <ul id="incomplete" class="list-group">
        <li class="list-group-item">
          <input  type="checkbox"/>
          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -66,6 +66,7 @@
          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
        </li>
      </ul>
+        <span id="addItem" class="btn btn-primary">Add Item</span>
        <h1>Completed</h1>
     <ul class="list-group">
       <li class="list-group-item">
@@ -113,5 +114,7 @@
 </div>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
 </body>
 </html>
