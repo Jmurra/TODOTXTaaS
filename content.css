@@ -1,0 +1,18 @@
+.checkbox {
+  display: inline-block;
+
+}
+
+h1 {
+  text-align: center;
+
+}
+
+.nav.nav-pills.nav-stacked {
+  float: left;
+}
+
+.list-group {
+  margin: 60px;
+
+}
